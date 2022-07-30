@@ -19,50 +19,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
-  <header>
-    <img src="src/images/pokebola.png" alt="ícone de uma pokebola">
-    <h1>MapaDev Week</h1>
+  <header class="header">
+    <img class="header_img" src="src/images/pokebola.png" alt="ícone de uma pokebola">
+    <h1 class="header_title">MapaDev Week</h1>
   </header>
 
-  <main>
-    <button>
+  <main class="pokemon_slider">
+    <button class="btn_arrow btn_left">
       <img src="src/images/arrow.png" alt="ícone de voltar o card">
     </button>
 
-    <ul>
-      <li>
-        <div class="card-header">
+    <ul class="pokemons_list">
+      <li class="card selected bg_card1">
+        <div class="card_infos">
           <h2>Pikachu</h2>
-          <p>HP 800</p>
-        </div>
-
-        <div class="card-main">
-          <img src="src/images/pikachu.png" alt="Imagem do pikachu">
-        </div>
-
-        <div class="card-description">
-          <h3>Descrição</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus atque omnis nihil ipsam nobis, fugiat
-            adipisci alias! Eligendi facilis numquam, dolore deleniti nisi perspiciatis nulla doloremque magnam
-            accusamus. Culpa nemo veniam ipsum! Vel quia minus praesentium incidunt culpa nobis itaque beatae,
-            adipisci minima illo dolores recusandae atque aspernatur vitae expedita.</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="card-header">
-          <h2>Charizard</h2>
           <p>HP 300</p>
         </div>
 
-        <div class="card-main">
-          <img src="src/images/charizard.png" alt="Imagem do charizard">
+        <div class="card_image">
+          <img src="src/images/pikachu.png" alt="Imagem do pikachu">
         </div>
 
-        <div class="card-description">
+        <div class="card_description">
           <h3>Descrição</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus atque omnis nihil ipsam nobis, fugiat
             adipisci alias! Eligendi facilis numquam, dolore deleniti nisi perspiciatis nulla doloremque magnam
@@ -71,17 +53,36 @@
         </div>
       </li>
 
-      <li>
-        <div class="card-header">
+      <li class="card bg_card2">
+        <div class="card_infos">
+          <h2>Charizard</h2>
+          <p>HP 800</p>
+        </div>
+
+        <div class="card_image">
+          <img src="src/images/charizard.png" alt="Imagem do charizard">
+        </div>
+
+        <div class="card_description">
+          <h3>Descrição</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus atque omnis nihil ipsam nobis, fugiat
+            adipisci alias! Eligendi facilis numquam, dolore deleniti nisi perspiciatis nulla doloremque magnam
+            accusamus. Culpa nemo veniam ipsum! Vel quia minus praesentium incidunt culpa nobis itaque beatae,
+            adipisci minima illo dolores recusandae atque aspernatur vitae expedita.</p>
+        </div>
+      </li>
+
+      <li class="card bg_card3">
+        <div class="card_infos">
           <h2>Mewtwo</h2>
           <p>HP 1200</p>
         </div>
 
-        <div class="card-main">
+        <div class="card_image">
           <img src="src/images/mewtwo.png" alt="Imagem do mewtwo">
         </div>
 
-        <div class="card-description">
+        <div class="card_description">
           <h3>Descrição</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus atque omnis nihil ipsam nobis, fugiat
             adipisci alias! Eligendi facilis numquam, dolore deleniti nisi perspiciatis nulla doloremque magnam
@@ -91,7 +92,7 @@
       </li>
     </ul>
 
-    <button>
+    <button class="btn_arrow">
       <img src="src/images/arrow.png" alt="ícone de avançar o card">
     </button>
   </main>
