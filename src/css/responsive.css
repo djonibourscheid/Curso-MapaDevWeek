@@ -1,0 +1,38 @@
+@media (max-width:425px) {
+  .card {
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .pokemon_slider {
+    padding: 2rem 1.5rem;
+    gap: 1rem;
+  }
+
+  .btn_arrow {
+    width: 2rem;
+    height: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pokemons_list {
+    height: 48rem;
+  }
+
+  .card .card_image>img {
+    max-height: 23rem;
+  }
+
+  .card .card_infos>h2 {
+    max-width: 50%;
+    font-size: 1.8rem;
+  }
+
+  .card .card_infos>p {
+    font-size: 1.4rem;
+  }
+}
