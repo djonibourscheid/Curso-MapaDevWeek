@@ -107,7 +107,7 @@
   }
 }
 
-@media (min-height: 900px) {
+@media (min-height: 901px) {
   .pokemons_list {
     height: 80rem;
   }
